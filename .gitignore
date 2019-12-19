@@ -1,0 +1,46 @@
+#
+# .gitignore: Files/directories to exclude from version control
+#
+
+# MSVS Project artifacts
+build/
+packages/
+App_Data/
+**/build*.txt
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+**/*.suo
+**/*.tmp
+.vs/
+
+# Eclipse artifacts
+.metadata/
+.settings/
+bin/
+build/
+target/
+temp/
+tmp/
+**/*.class
+**/*.tmp
+**/*.bak
+**/*.zip
+**/*.bu
+**/*.war
+
+# VSCode
+.vscode/
+
+# Node/Angular:
+node_modules/
+dist/
+out-tsc/
+npm_logs/
+.sass-cache/
+
+# System Files
+**/.DS_Store
+**/Thumbs.db
+
