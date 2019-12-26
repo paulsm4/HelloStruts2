@@ -17,3 +17,11 @@
     - Struts 2 Rest Showcase Webapp (rest-showcase):
       <= part of Apache Struts source base: https://github.com/apache/struts
 
+    - Additional links:
+       https://www.mkyong.com/struts2/struts-2-namespace-configuration-example-and-explanation/
+       https://www.mkyong.com/tutorials/struts-2-tutorials/
+       https://www.tutorialspoint.com/struts_2/struts_architecture.htm
+       https://www.javatutoronline.com/struts/how-struts2-works/
+    
+* struts-2-with-struts-xml: Compare "struts.xml" vs. annotations
+
