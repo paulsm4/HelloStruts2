@@ -1,13 +1,16 @@
 package com.baeldung.struts;
 
-import org.apache.struts2.convention.annotation.Action;
-import org.apache.struts2.convention.annotation.Namespace;
-import org.apache.struts2.convention.annotation.Result;
+/**
+ * Using struts.xml (vs. Struts2 annotations)
+ */
+//import org.apache.struts2.convention.annotation.Action;
+//import org.apache.struts2.convention.annotation.Namespace;
+//import org.apache.struts2.convention.annotation.Result;
 
-@Namespace("/tutorial")
-@Action("/car")
-@Result(name = "success", location = "/result.jsp")
-public class CarAction { 
+// @Namespace("/tutorial")
+// @Action("/car")
+// @Result(name = "success", location = "/result.jsp")
+public class CarController { 
     private String carName;
     private String carMessage;
     private CarMessageService carMessageService = new CarMessageService();
