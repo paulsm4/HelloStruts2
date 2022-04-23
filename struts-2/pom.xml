@@ -10,7 +10,7 @@
 
     <properties>
         <struts2.version>2.5.22</struts2.version>
-        <spring.version>4.3.19.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <maven-war-plugin.version>3.2.2</maven-war-plugin.version>
         <maven-compiler-plugin>3.8.0</maven-compiler-plugin>
     </properties>
